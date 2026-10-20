@@ -1,0 +1,15 @@
+{
+  "name": "bazi-ziwei-annual-report",
+  "version": "2.0.0",
+  "description": "八字×紫微 流年流月大运报告生成器（通用版）—— 排盘自校验 + 双大运体系 + 逐年 + 逐月 + 近5年建议",
+  "scripts": {
+    "report": "node scripts/annual_report.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "iztro": "^2.5.8"
+  },
+  "private": true
+}
